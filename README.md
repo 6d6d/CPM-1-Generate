@@ -20,7 +20,7 @@ docker pull dmye/cpm:v0
 ```
 参考运行指令如下：
 ```
-sudo docker run --gpus '"device=0"' -it -v /home/CPM:/CPM  --name=cpm  cpm:v0
+sudo docker run --gpus '"device=0"' -it -v /home/CPM:/CPM  --name=cpm  dmye/cpm:v0
 ```
 其中`<path>`为代码所在目录，-v进行文件目录挂载
 
