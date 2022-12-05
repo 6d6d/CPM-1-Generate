@@ -22,7 +22,7 @@ docker pull dmye/cpm:v0
 ```
 sudo docker run --gpus '"device=0"' -it -v /home/CPM:/CPM  --name=cpm  dmye/cpm:v0
 ```
-其中`<path>`为代码所在目录，-v进行文件目录挂载
+其中/home/CPM为代码所在目录，-v进行文件目录挂载
 
 注：感谢qhduan同学提供了基于TensorFlow的[使用代码](https://github.com/qhduan/CPM-LM-TF2)，用作Pytorch之外的备选。
 
